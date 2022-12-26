@@ -3,67 +3,92 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css" >
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <a class="logo" href="index.html">WebStudio</a>
         <nav>
-            <a href="#">WebStudio</a>
-            <a href="#">Agencja</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Kontakty</a>
+            <ul>
+                <li><a href="#">Agencja</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Kontakty</a></li>
+            </ul>
         </nav>
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
-        <nav>
-            <a href="#">Wszystkie</a>
-            <a href="#">Strony</a>
-            <a href="#">Aplikacje</a>
-            <a href="#">Dizajn</a>
-            <a href="#">Marketing</a>
-        </nav>
-    
-    <section>
-        <img src="images/img-portf-01.jpg" width="370" height="294" alt="portfolio1" >
-        <h3>Technocrack</h3>
-        <p>Strona internetowa</p>
-        <img src="images/img-portf-02.jpg" width="370" height="294" alt="portfolio2" >
-        <h3>Grafika New Orlean vs Golden Star</h3>
-        <p>Dizajn</p>
-        <img src="images/img-portf-03.jpg" width="370" height="294" alt="portfolio3" >
-        <h3>Restauracja Seafood</h3>
-        <p>Aplikacja</p>
-        <img src="images/img-portf-04.jpg" width="370" height="294" alt="portfolio4" >
-        <h3>Projekt Prime</h3>
-        <p>Marketing</p>
-        <img src="images/img-portf-05.jpg" width="370" height="294" alt="portfolio5" >
-        <h3>Projekt Boxes</h3>
-        <p>Aplikacja</p>
-        <img src="images/img-portf-06.jpg" width="370" height="294" alt="portfolio6" >
-        <h3>Inspiration has no Borders</h3>
-        <p>Strona internetowa</p>
-        <img src="images/img-portf-07.jpg" width="370" height="294" alt="portfolio7" >
-        <h3>Magazyn Limited Edition</h3>
-        <p>Dizajn</p>
-        <img src="images/img-portf-08.jpg" width="370" height="294" alt="portfolio8" >
-        <h3>Projekt LAB</h3>
-        <p>Marketing</p>
-        <img src="images/img-portf-09.jpg" width="370" height="294" alt="portfolio9" >
-        <h3>Growing Business</h3>
-        <p>Aplikacja</p>        
-    </section>
+        <section>
+            <ul>
+              <li><button type="button">Wszystkie</button></li>
+              <li><button type="button">Strony</button></li>
+              <li><button type="button">Aplikacje</button></li>
+              <li><button type="button">Dizajn</button></li>
+              <li><button type="button">Marketing</button></li>
+            </ul>
+        </section>
+        <section>
+            <ul class="ul-portfolio">
+                <li>
+                    <img src="images/img-portf-01.jpg" width="370" height="294" alt="portfolio1" >
+                    <h3>Technocrack</h3>
+                    <p>Strona internetowa</p>
+                </li>
+                <li><img src="images/img-portf-02.jpg" width="370" height="294" alt="portfolio2" >
+                    <h3>Grafika New Orlean vs Golden Star</h3>
+                    <p>Dizajn</p>
+                </li>
+                <li><img src="images/img-portf-03.jpg" width="370" height="294" alt="portfolio3" >
+                    <h3>Restauracja Seafood</h3>
+                    <p>Aplikacja</p>
+                </li>
+                <li><img src="images/img-portf-04.jpg" width="370" height="294" alt="portfolio4" >
+                    <h3>Projekt Prime</h3>
+                    <p>Marketing</p>
+                </li>
+                <li><img src="images/img-portf-05.jpg" width="370" height="294" alt="portfolio5" >
+                    <h3>Projekt Boxes</h3>
+                    <p>Aplikacja</p>
+                </li>
+                <li><img src="images/img-portf-06.jpg" width="370" height="294" alt="portfolio6" >
+                    <h3>Inspiration has no Borders</h3>
+                    <p>Strona internetowa</p>
+                </li>
+                <li><img src="images/img-portf-07.jpg" width="370" height="294" alt="portfolio7" >
+                    <h3>Magazyn Limited Edition</h3>
+                    <p>Dizajn</p>
+                </li>
+                <li><img src="images/img-portf-08.jpg" width="370" height="294" alt="portfolio8" >
+                    <h3>Projekt LAB</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <!-- <figure> -->
+                        <img src="images/img-portf-09.jpg" width="370" height="294" alt="portfolio9" >
+                        <!-- <figcaption> -->
+                        <h3>Growing Business</h3>
+                        <p>Aplikacja</p>
+                        <!-- </figcaption> -->
+                    <!-- </figure> -->
+                </li>
+            </ul>
+        </section>
     </main>
+
+
     <footer>
         <a href="#">WebStudio</a>
         <address>
-            w. Warszawa, Aleje Jerozolimskie 21
-            <br>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <br>
-            <a href="tel:+48111111111">+48 111 111 111</a>                
-        </address>            
+            <ul>
+                <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul>            
+        </address>
     </footer>
 </body>
 </html>

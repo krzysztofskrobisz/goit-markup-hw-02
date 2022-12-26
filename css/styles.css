@@ -1,0 +1,26 @@
+:root {
+  --brand-color-blue: #2196f3;
+  --brand-color-black: #212121;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--brand-color-blue);
+    line-height: 1.2;
+    text-decoration: none; */
+}
+
+
+
+
+.ul-portfolio {
+    color:brown;
+}
+
