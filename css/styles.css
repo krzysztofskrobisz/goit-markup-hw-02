@@ -17,7 +17,21 @@ body {
     text-decoration: none; */
 }
 
+.nav-ul {
+  display: inline;
+  margin-right: 46px;
+}
 
+.nav-a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--brand-color-black);
+}
+
+.nav-a:hover, .nav-a:focus {
+  color: var(--brand-color-blue);
+}
 
 
 .ul-portfolio {
