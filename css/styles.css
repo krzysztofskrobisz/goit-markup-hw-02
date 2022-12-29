@@ -3,15 +3,55 @@
   --brand-color-black: #212121;
   --brand-color-grey: #757575;
   --brand-color-white: #fff;
+  --brand-background-gray: #2f303a;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--brand-color-black);
 }
 
-.logo {
-    font-family: 'Raleway', sans-serif;    
+.wrapper {
+  background-color: var(--brand-color-white);
+  width: 1600px;
+  margin: auto;
+}
+
+
+.footer {
+  /* padding: 60px 0px 60px 215px; */
+  background-color: var(--brand-background-gray);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+  float: left;
+  margin-top: 24px;
+  margin-left: 215px;
+  margin-right: 93px;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  color: #fff;
+  /* float: left; */
+  margin-top: 24px;
+  margin-left: 215px;
+  margin-right: 93px;
+}
+
+.brand-color-blue {
+  color: var(--brand-color-blue);
 }
 
 .nav-a {
