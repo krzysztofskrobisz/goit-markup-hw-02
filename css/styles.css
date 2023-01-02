@@ -18,10 +18,20 @@ body {
   margin: auto;
 }
 
+.header {
+  height: 80px;
+  border-bottom: #ececec solid 1px;
+  padding: 0 215px;
+}
+
+.main {
+  margin: 94px 215px 0px 215px;
+}
 
 .footer {
-  /* padding: 60px 0px 60px 215px; */
+  padding: 60px 0px 60px 215px;
   background-color: var(--brand-background-gray);
+  color: var(--brand-color-white);
 }
 
 .list {
@@ -34,8 +44,7 @@ body {
   text-decoration: none;
   color: #000;
   float: left;
-  margin-top: 24px;
-  margin-left: 215px;
+  margin-top: 24px; 
   margin-right: 93px;
 }
 
@@ -44,37 +53,96 @@ body {
   font-size: 26px;
   text-decoration: none;
   color: #fff;
-  /* float: left; */
+  float: none;
   margin-top: 24px;
-  margin-left: 215px;
-  margin-right: 93px;
 }
 
 .brand-color-blue {
   color: var(--brand-color-blue);
 }
 
-.nav-a {
+.nav-list {
+  float: left;
+  margin-top: 32px;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 46px;
+}
+
+.nav-link {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   color: var(--brand-color-black);
 }
 
-.nav-a:hover,
-.nav-a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--brand-color-blue);
 }
 
-.contact-a {  
+.contact-list {
+  float: left;
+  margin-top: 32px;
+  margin-left: 268px;
+}
+
+.contact-item {
+  display:inline;
+  margin-right: 50px;  
+}
+
+.contact-link {  
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   color: var(--brand-color-grey);
 }
 
-.contact-a:hover,
-.contact-a:focus {
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--brand-color-blue);
+}
+
+.slogan {
+  height: 600px;
+  background-color: var(--brand-background-gray);
+  border: 1px solid var(--brand-background-dark); /* I dont't know why this property is required */
+  text-align: center;
+}
+
+.slogan-content {
+  margin: 200px 452px 0px 452px;
+}
+
+.slogan-title {
+  color: var(--brand-color-white);
+  text-transform: uppercase;  
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4em;
+  letter-spacing: 0.06em;
+}
+
+.slogan-btn {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-blue);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9em;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.slogan-btn:hover,
+.slogan-btn:focus,
+.slogan-btn:active {
+  background-color: var(--brand-color-white);
   color: var(--brand-color-blue);
 }
 
@@ -88,7 +156,7 @@ body {
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 400;  
 }
 
 .footer-link:hover,
