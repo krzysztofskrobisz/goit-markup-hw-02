@@ -85,9 +85,9 @@ body {
   margin-right: 50px;
 }
 
-/* .contact-item:last-child {
+.contact-item:last-child {
   margin-right: 0;
-} */
+}
 
 .contact-link {
   color: var(--brand-color-gray);
@@ -219,9 +219,7 @@ body {
   color: var(--brand-color-white);
 }
 
-/* PROJECTS */
-
-.projects-description-text {
+.projects-text {
   color: var(--brand-color-gray);
 }
 
@@ -255,6 +253,6 @@ body {
   color: var(--brand-color-white);
 }
 
-/* .address-item span {
+.address-item span {
   text-decoration: underline;
-} */
+}
