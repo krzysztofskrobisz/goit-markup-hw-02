@@ -1,9 +1,16 @@
 :root {
-  --brand-color-blue: #2196f3;
-  --brand-color-black: #212121;
-  --brand-color-gray: #757575;
-  --brand-color-white: #fff;  
-  --brand-background-gray: #2f303a;
+  --primary-brand-color: #4D5AE5;
+  --pressed-state-color: #404BBF;
+  --dark-color: #2E2F42;
+  --success-color: #31D0AA;
+  --text-color: #434455;
+  --subtle-text-color: #8E8F99;
+  --accent-color: #E7E9FC;
+  --light-color: #F4F4FD;
+  --modal-overlay-color: #2E2F42;
+  --hero-background-color: #2E2F42;
+  --white-background-color: #FFFFFF;
+  --modal-background-color: #FCFCFC;
 }
 
 body {
