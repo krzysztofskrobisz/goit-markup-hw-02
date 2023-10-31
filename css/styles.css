@@ -19,21 +19,31 @@ body {
   background-color: var(--white-background-color);
 }
 
-/* .wrapper {
-  width: 1600px;
-  margin: auto;
-  background-color: var(--brand-color-white);  
-} */
-
-.header {
-  height: 80px;
-  border-bottom: #ececec solid 1px;
-  padding: 0 215px;
+.nav-logo {
+  color: var(--primary-brand-color);
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.main {
-  margin: 94px 215px 0px 215px;
+.logo-span {
+  color: var(--dark-color);
 }
+
+
+
+
+.list {
+  list-style: none;
+  }
+
+.link {
+  text-decoration: none;
+  } 
 
 .footer {
   padding: 60px 0px 60px 215px;
