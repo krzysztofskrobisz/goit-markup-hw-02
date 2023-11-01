@@ -115,7 +115,7 @@ body {
   text-transform: capitalize;
 }
 
-.section-no2-titles {
+.section-no2-title {
   color: var(--dark-color);
   font-weight: 500;
   font-size: 20px;
@@ -130,11 +130,28 @@ body {
   letter-spacing: 0.02em;
 }
 
+.section-no4 {
+  background-color: var(--light-color);
+}
 
+.section-no4-image-background {
+  background-color: var(--white-background-color);
+}
 
+.section-no4-title {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  }
 
-
-
+.section-no4-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 
 
