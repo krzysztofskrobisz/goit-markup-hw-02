@@ -78,6 +78,7 @@ body {
 
 
 
+
 .section-one-hero {
   background-color: var(--hero-background-color);
 }
@@ -102,8 +103,7 @@ body {
 }
 
 .section-one-button:hover,
-.section-one-button:focus
-.section-one-button:active {
+.section-one-button:focus {
   background-color: var(--pressed-state-color);
 }
 
@@ -167,8 +167,7 @@ body {
   cursor: pointer;
 }
 .portfolio-button:hover,
-.portfolio-button:focus
-.portfolio-button:active {
+.portfolio-button:focus {
   color: #FFFFFF;
   background-color: #404BBF;
   
