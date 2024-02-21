@@ -4,3 +4,34 @@ body {
   background-color: #FFFFFF;
 }
 
+:root {
+  --primary_brand-color: #4D5AE5;
+  --pressed_state-color: #404BBF;
+  --dark-color: #2E2F42;
+  --success-color: #31D0AA;
+  --text-color: #434455;
+  --subtle_text-color: #8E8F99;
+  --accent-color: #E7E9FC;
+  --light-color: #F4F4FD;
+  --modal_overlay-color: #2E2F42;
+  --hero_background-color: #2E2F42;
+  --white_background-color: #FFFFFF;
+  --modal_background-color: #FCFCFC;
+}
+
+.navigation-logo {
+  color: var(--primary_brand-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: var(--dark-color);
+}
+
+.link {
+  text-decoration: none;
+}
