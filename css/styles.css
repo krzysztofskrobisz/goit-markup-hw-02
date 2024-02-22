@@ -50,3 +50,7 @@ body {
   color: var(--pressed_state-color);
 }
 
+.address {
+  font-style: normal;
+}
+
