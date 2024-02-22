@@ -44,3 +44,9 @@ body {
 .link {
   text-decoration: none;
 }
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--pressed_state-color);
+}
+
