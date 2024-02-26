@@ -69,3 +69,17 @@ body {
   color: var(--pressed_state-color)
 }
 
+footer {
+  background-color: var(--hero_background-color);
+}
+
+.logo-footerspan {
+  color: var(--light-color);
+}
+
+.footer-text {
+  color: var(--light-color);
+  /* font-size: 16px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
