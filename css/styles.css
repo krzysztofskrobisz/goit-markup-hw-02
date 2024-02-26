@@ -69,6 +69,40 @@ body {
   color: var(--pressed_state-color)
 }
 
+.hero-section {
+  background-color: var(--hero_background-color);
+}
+
+.hero-section-h1 {
+  color: #FFF;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* font-weight: 700; */  
+}
+
+.hero-section-button {
+  background-color: var(--primary_brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.hero-section-button:hover,
+.hero-section-button:focus {
+  background-color: var(--pressed_state-color);
+}
+
+
+
+
+
+
+
 footer {
   background-color: var(--hero_background-color);
 }
