@@ -54,3 +54,18 @@ body {
   font-style: normal;
 }
 
+.address-link {
+  color: var(--text-color);
+  font-size: 16px;
+  /* font-weight: 500; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* cursor: pointer;
+  text-decoration: none; */
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--pressed_state-color)
+}
+
