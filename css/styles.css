@@ -151,9 +151,36 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* section no4 our portfolio */
 
+.portfolio-section {
 
+}
 
+.portfolio-section-title {
+
+}
+
+.portfolio-section-list {
+
+}
+
+.portfolio-section-our-title {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-section-our-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
 
 footer {
   background-color: var(--hero_background-color);
