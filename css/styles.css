@@ -75,7 +75,7 @@ body {
   background-color: var(--hero_background-color);
 }
 
-.hero-section-h1 {
+.hero-section-title {
   color: #FFF;
   font-size: 56px;
   line-height: 1.07;
@@ -97,6 +97,23 @@ body {
 .hero-section-button:hover,
 .hero-section-button:focus {
   background-color: var(--pressed_state-color);
+}
+
+/* section no2 */
+
+.sides-section-heading {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.sides-section-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 
