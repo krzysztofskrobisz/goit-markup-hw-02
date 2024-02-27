@@ -154,8 +154,7 @@ body {
 /* section no4 our portfolio */
 
 .portfolio-section {
-  all
-
+  
 }
 
 .portfolio-section-title {
@@ -168,7 +167,7 @@ body {
 
 .portfolio-section-our-title {
   color: var(--dark-color);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
