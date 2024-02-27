@@ -99,7 +99,7 @@ body {
   background-color: var(--pressed_state-color);
 }
 
-/* section no2 */
+/* section no2 our strong sides */
 
 .sides-section-heading {
   color: var(--dark-color);
@@ -116,7 +116,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* section no3 */
+/* section no3 our team */
 
 .team-section {
   background-color: var(--light-color);
@@ -132,7 +132,24 @@ body {
   text-transform: capitalize;
 }
 
+.team-section-list {
+  background-color: var(--white_background-color);
+}
 
+.team-section-people-title {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-section-people-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 
 
