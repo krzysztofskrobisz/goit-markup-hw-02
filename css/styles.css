@@ -19,6 +19,10 @@ body {
   --modal_background-color: #FCFCFC;
 }
 
+.list {
+  list-style: none;
+}
+
 .navigation-logo {
   color: var(--primary_brand-color);
   font-family: 'Raleway', sans-serif;
